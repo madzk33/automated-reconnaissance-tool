@@ -1,0 +1,6 @@
+python-nmap
+shodan
+dnspython
+requests
+python-dotenv
+
