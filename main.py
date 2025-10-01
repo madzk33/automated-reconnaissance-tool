@@ -52,8 +52,8 @@ def _first_line(text: str) -> str:
         return ""
     return text.strip().split("\n", 1)[0].strip()
 
-def _print_host_block(target_label: str, ip_str: str, org: Optional[str], os_name: Optional[str],
-                      open_port_banners: Dict[int, str]):
+def _print_host_block(target_label: str, ip_str: str, org: str | None, os_name: str | None,
+                      open_port_banners: dict[int, str]):
     # If no open ports → skip output
     if not open_port_banners:
         return ""
