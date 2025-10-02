@@ -20,11 +20,35 @@ try:
 except Exception:
     # dotenv not installed — that's fine, environment variables will still work
     pass
+    from pathlib import Path
+
+def _require_env(varname: str, prompt_text: str) -> str | None:
+    """If env var missing, prompt the user once, save to .env, and set os.environ."""
+    val = os.getenv(varname)
+    if val:
+        return val
+    try:
+        user_val = input(f"{prompt_text} (leave blank to skip): ").strip()
+    except EOFError:
+        user_val = ""
+    if user_val:
+        # Append to .env so future runs work automatically
+        try:
+            env_path = Path(".env")
+            existing = env_path.read_text(encoding="utf-8") if env_path.exists() else ""
+            if existing and not existing.endswith("\n"):
+                existing += "\n"
+            env_path.write_text(existing + f"{varname}={user_val}\n", encoding="utf-8")
+        except Exception:
+            pass
+        os.environ[varname] = user_val
+        return user_val
+    return None
 
 # API KEYS (read from environment)
-SHODAN_API_KEY = os.getenv("SHODAN_API_KEY")    # e.g. export SHODAN_API_KEY="abcd..."
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")        # e.g. export GROQ_API_KEY="abcd..."
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+SHODAN_API_KEY = _require_env("SHODAN_API_KEY", "Enter SHODAN_API_KEY")
+GROQ_API_KEY   = _require_env("GROQ_API_KEY",   "Enter GROQ_API_KEY")
+GROQ_MODEL     = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 
 scan_log = ""  # To accumulate results for GROQ
 
