@@ -18,8 +18,8 @@ It integrates multiple open-source tools and APIs to perform domain enumeration,
 
 ## 🖼️ Screenshots
 
-| Shodan Results | DNS Enumeration | 
-|-----------------|----------------|
+| Results |  
+|-----------------|
 | Shodan Scan |<img width="533" height="645" alt="Screenshot 2025-10-02 211320" src="https://github.com/user-attachments/assets/237ece92-af43-4365-a159-9c556bd8e0b0" />
 | DNS Enumeration |<img width="581" height="392" alt="Screenshot 2025-10-02 211338" src="https://github.com/user-attachments/assets/f4d96bc7-3cb0-425d-b62a-e2c09f0803b8" />
 | Email Harvesting |<img width="590" height="514" alt="Screenshot 2025-10-02 211353" src="https://github.com/user-attachments/assets/bb58091c-853c-48ff-af6d-8bbe563b1d0c" />
