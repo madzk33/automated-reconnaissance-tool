@@ -1,7 +1,7 @@
 # 🕵️ Automated Reconnaissance Tool
 
 An advanced **cybersecurity reconnaissance tool** that automates the information-gathering phase of penetration testing.  
-It integrates multiple open-source tools and APIs to perform domain enumeration, port scanning, subdomain discovery, and vulnerability summarization using **GROQ-powered AI analysis**.
+It integrates multiple open-source tools and APIs to perform domain enumeration, port scanning, subdomain discovery, and vulnerability summarization with suggested exploitation paths using **GROQ-powered AI analysis**.
 
 ---
 
