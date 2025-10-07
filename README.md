@@ -18,14 +18,14 @@ It integrates multiple open-source tools and APIs to perform domain enumeration,
 
 ## 🖼️ Screenshots
 
-| Shodan Results | DNS Enumeration | Email Harvesting | Gobuster & Nmap | AI Summary |
+| Results | DNS Enumeration | Email Harvesting | Gobuster & Nmap | AI Summary |
 |-----------------|----------------|------------------|-----------------|-------------|
-| ![Shodan Scan](<img width="533" height="645" alt="Screenshot 2025-10-02 211320" src="https://github.com/user-attachments/assets/237ece92-af43-4365-a159-9c556bd8e0b0" />
-| ![DNS Scan](<img width="581" height="392" alt="Screenshot 2025-10-02 211338" src="https://github.com/user-attachments/assets/f4d96bc7-3cb0-425d-b62a-e2c09f0803b8" />
-| ![TheHarvester](<img width="590" height="514" alt="Screenshot 2025-10-02 211353" src="https://github.com/user-attachments/assets/bb58091c-853c-48ff-af6d-8bbe563b1d0c" />
-| ![Gobuster](<img width="555" height="145" alt="Screenshot 2025-10-02 211407" src="https://github.com/user-attachments/assets/41d7644b-b1fb-4905-91e6-b4eec107bf41" />
-| ![Nmap](<img width="454" height="212" alt="Screenshot 2025-10-02 211416" src="https://github.com/user-attachments/assets/01f8f106-c661-44fd-988a-905fa66d32ae" />
-| ![GROQ Summary](<img width="1886" height="582" alt="Screenshot 2025-10-02 211439" src="https://github.com/user-attachments/assets/22995174-ae02-4e9d-8c86-938652623397" />
+| Shodan Scan |(<img width="533" height="645" alt="Screenshot 2025-10-02 211320" src="https://github.com/user-attachments/assets/237ece92-af43-4365-a159-9c556bd8e0b0" />
+| DNS Enumeration |(<img width="581" height="392" alt="Screenshot 2025-10-02 211338" src="https://github.com/user-attachments/assets/f4d96bc7-3cb0-425d-b62a-e2c09f0803b8" />
+| Email Harvesting |(<img width="590" height="514" alt="Screenshot 2025-10-02 211353" src="https://github.com/user-attachments/assets/bb58091c-853c-48ff-af6d-8bbe563b1d0c" />
+| Gobuster |(<img width="555" height="145" alt="Screenshot 2025-10-02 211407" src="https://github.com/user-attachments/assets/41d7644b-b1fb-4905-91e6-b4eec107bf41" />
+| Nmap |(<img width="454" height="212" alt="Screenshot 2025-10-02 211416" src="https://github.com/user-attachments/assets/01f8f106-c661-44fd-988a-905fa66d32ae" />
+| AI Summary & Exploitation Paths |(<img width="1886" height="582" alt="Screenshot 2025-10-02 211439" src="https://github.com/user-attachments/assets/22995174-ae02-4e9d-8c86-938652623397" />
 
 
 *(Screenshots show sample scan results using `example.com`.)*
