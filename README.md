@@ -48,5 +48,8 @@ pip install -r requirements.txt
 
 # Usage
 python main.py
-<img width="530" height="97" alt="image" src="https://github.com/user-attachments/assets/1401cfe2-6158-46d8-9a4a-0466ebee5ba4" />
+Enter SHODAN_API_KEY (leave blank to skip): 
+Enter GROQ_API_KEY (leave blank to skip): 
+Enter the target IP or domain: 
+
 
